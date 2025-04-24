@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sara Omar | Portfolio</title>
+  <style>
+    :root {
+      --neon-blue: #00f0ff;
+      --neon-purple: #bf00ff;
+      --bg-dark: #0f0f0f;
+      --text-light: #f0f0f0;
+      --card-bg: #1a1a1a;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 0;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: var(--neon-blue);
+      text-shadow: 0 0 10px var(--neon-blue);
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .btn {
+      background: var(--neon-purple);
+      color: white;
+      padding: 0.6rem 1.4rem;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px var(--neon-purple);
+    }
+    .btn:hover {
+      background: #9b00cc;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--neon-blue);
+      text-shadow: 0 0 8px var(--neon-blue);
+      border-bottom: 2px solid var(--neon-blue);
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: var(--neon-purple);
+    }
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--neon-blue);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sara Omar</h1>
+      <p>Software Developer | Educator | CS & Math Student at Technion</p>
+      <p>Exploring the synergy of code, creativity, and learning. Passionate about clean UI, automation, and mentoring future innovators.</p>
+      <a class="btn" href="Sara_Omar_Resume.pdf" download>Download Resume</a>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>Hi, I’m Sara — a detail-obsessed software developer and educator, balancing rigorous logic with clean design. I’m currently studying Computer Science and Mathematics at the Technion, one of Israel’s most competitive programs, while working as a software verification intern at Amazon.</p>
+        <p>Whether I’m building scalable automation frameworks or designing elegant front-end components, I bring clarity, reliability, and empathy to my work. I love turning complex ideas into clean systems and guiding others to do the same. Outside of code, you’ll find me learning languages (currently German), teaching students how to think like programmers, or deep-diving into cloud infrastructure.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Career Highlights</h2>
+      <div class="card">
+        <ul>
+          <li>🎓 Top-performing student in CS & Math at the Technion</li>
+          <li>🧪 Built a validation framework at Amazon that tested critical distributed systems</li>
+          <li>🖥️ Designed responsive, accessible UI components during internship at Pendo</li>
+          <li>👩‍🏫 Taught Java & C to over 30+ students, from beginners to competitors</li>
+          <li>💬 Fluent in English, Arabic, Hebrew – and learning German 🇩🇪</li>
+          <li>📜 Certified in QA Testing (Ecom) & Science of Well-Being (Yale)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Amazon – Verification Software Developer Intern</h3>
+        <p>Haifa | Present</p>
+        <ul>
+          <li>Developed and executed high-level Python-based unit and integration tests using Pytest for distributed systems.</li>
+          <li>Wrote high-level validation logic in Python using Pytest.</li>
+          <li>Designed automation frameworks to validate performance, reliability, and functionality at scale.</li>
+          <li>Identified critical bugs and enhanced overall system stability through proactive QA.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Pendo – Front-End Developer Intern</h3>
+        <p>Herzliya | Nov 2022 – Nov 2023</p>
+        <ul>
+          <li>Designed UI components with React, JS, HTML/CSS, focused on UX accessibility.</li>
+          <li>Debugged, profiled, and optimized interface rendering performance.</li>
+          <li>Partnered with designers and back-end engineers to implement seamless user experiences</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>StarTech – Coding Instructor</h3>
+        <p>Remote | Jan 2023 – Feb 2024</p>
+        <ul>
+          <li>Taught Java and C to students in online group settings (30+ students).</li>
+          <li>Created custom lesson plans for various learning levels.</li>
+          <li>Created a supportive classroom environment focused on curiosity, collaboration, and critical thinking</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Industrial Project @ Technion (in collaboration with Madrasa.org)</h3>
+        <li>Developed an interactive, web-based Arabic language quiz game integrated into Madrasa’s educational platform.</li>
+        <li>Built full-stack functionality using React for the front end and Firebase for real-time data storage and user progress tracking.</li>    
+        <li>Focused on accessible UX/UI design to support language learners across multiple proficiency levels.</li>    
+        <li>Collaborated in an Agile team structure, holding weekly demos with academic advisors and the Madrasa product team.</li>
+        <li>Delivered a production-ready feature that was deployed and reviewed by Madrasa’s real user base</li>
+      </div>
+      <div class="card">
+        <h3>Networking project @ Technion</h3>
+        <li>Extended QUIC protocol support to enable file and video streaming services within a custom network simulator.</li>
+        <li>Engineered packet flow analysis from .pcap network captures and converted them into structured .csv files.</li>    
+        <li>Created a visual dataset by transforming network traffic patterns into .png images for machine learning tasks.</li>    
+        <li>Explored ML-based traffic classification approaches and laid groundwork for anomaly detection tools.</li>
+      </div>
+      <div class="card">
+        <h3>Robotics project @ Technion</h3>
+        <li>Developed autonomous navigation logic for a physical or simulated robot using C++ and sensor input.</li>
+        <li>Designed and implemented obstacle detection algorithms using real-time environmental feedback.</li>    
+        <li>Integrated motion control systems with ROS (Robot Operating System) for route planning and execution.</li>    
+        <li>Collaborated in a team to meet engineering constraints and demonstrate functionality in a timed test environment.</li>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:Osara7846@gmail.com">Osara7846@gmail.com</a></p>
+        <p>Phone: 052-279-6620</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+"""
